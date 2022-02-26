@@ -1,0 +1,253 @@
+#nosotros {
+position: relative;
+height: 150vh;
+width: 100%;
+background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/048de4a5f45b572c81f41057/s.png);
+background-position: 50% 50%;
+}
+	#nosotros .nd {
+	position: relative;
+	width: 100%;
+	height: 50%;
+	}
+	#nosotros .nd1 {
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 100%;
+	}
+		.nd1 div {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		width: 100%;
+		}
+		.nd1 div img {
+		position: absolute;
+		height: 100%;
+		z-index: 1;
+		}
+		.nd1 p:nth-child(1) {
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		font-size: 25px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		color: #fff;
+		text-align: center;
+		padding: 4vh 0;
+		margin: 0;
+		}
+		.nd1 p:nth-child(2) {
+		font-size: 65px;
+		font-family: 'Oswald', sans-serif;
+		color: #fff;
+		padding: 4vh 6vw 2vh 2vw;
+		line-height: 1;
+		margin: 0;
+		}
+		.nd1 p:nth-child(3) {
+		font-size: 18px;
+		font-family: 'DM Sans', sans-serif;
+		color: #fff;
+		padding: 4vh 6vw 2vh 2vw;
+		margin: 0;
+		}
+	#nosotros .nd2 {
+	position: relative;
+	float: left;
+	top: 50%;
+	height: 90%;
+	margin: 0 1vw;
+	transform: translate(0, -50%);
+	width: calc(100%/3.2);
+	border-radius: 15px;
+	background-color: #282E33;
+	}
+		.nd2 div {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 35%;
+		overflow: hidden;
+		}
+			.nd2 div img {
+			position: absolute;
+			height: 90%;
+			}
+		.nd2 p:nth-child(2) {
+		position: relative;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 20px;
+		color: #fff;
+		padding: 1.5vh 0;
+		margin: 0;
+		}
+		.nd2 p:nth-child(3) {
+		position: relative;
+		font-family: 'DM Sans', sans-serif;
+		font-weight: 300;
+		text-align: justify;
+		font-size: 18px;
+		color: #fff;
+		padding: 1.5vh 2.5vw;
+		margin: 0;
+		}
+
+#categorias {
+position: relative;
+height: 100vh;
+width: 100%;
+background-color: #E5E5E5;
+}
+	#categorias .ctittle {
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 3px;
+	padding: 3vh 0;
+	font-family: 'Roboto', sans-serif;
+	}
+	#categorias .ccont {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 75%;
+	width: 95%;
+	text-align: center;
+	overflow: hidden;
+	}
+	#categorias .cd1 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 35%;
+	overflow: hidden;
+	float: left;
+	}
+		.cd1 img {
+		width: 100%;
+		}
+	#categorias .cd2 {
+	position: relative;
+	height: 100%;
+	width: 65%;
+	overflow: hidden;
+	float: left;
+	}
+		.cd2 .cd2d {
+		position: relative;
+		height: 50%;
+		width: 50%;
+		float: left;
+		}
+			.cd2d div {
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 80%;
+			}
+			.cd2d img {
+			height: 80%;
+			}			
+			.cd2d p {
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 20%;
+			font-size: 20px;
+			text-transform: uppercase;
+			font-family: 'Roboto', sans-serif;
+			}
+
+#place {
+position: relative;
+height: 200vh;
+width: 100%;
+margin: 0;
+}
+	#place .pbg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 100%;
+	transform: translate(-50%, -50%);
+	z-index: 0;
+	}
+	#place p {
+	position: relative;
+	padding: 5vh 0;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	}
+	#place div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 1;
+	}
+	#place div img {
+	position: relative;
+	float: left;
+	margin: 2vh 1vw;
+	width: calc(100%/2.2);
+	border-radius: 15px;
+	box-shadow: 0vw 1vh 15px rgb(0 0 0 / 60%);
+	}
+
+#map {
+position: relative;
+height: 65vh;
+width: 100%;
+}
+	#map iframe {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	border: none;
+	}
+#end {
+position: relative;
+height: 80vh;
+width: 100%;
+}
+	#end div {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80%;
+	width: 100%;
+	overflow: hidden;
+	}
+	#end img {
+	border-radius: 100px;
+	height: 90%;
+	box-shadow: 0vw 1vh 15px rgb(0 0 0 / 60%);
+	}
+	#end p {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	height: 20%;
+	}

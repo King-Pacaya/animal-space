@@ -1,0 +1,92 @@
+footer {
+position: relative;
+height: 100vh;
+width: 100%;
+overflow: hidden;
+}
+	footer .fbg {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 101%;
+	transform: translate(-50%, 0);
+	z-index: 0;
+	}
+	footer .fcont {
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	height: 90%;
+	width: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #1A1A1A;
+	border-radius: 15px;
+	}
+	footer h1 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 4.5vw;
+	color: #fff;
+	margin: 0;
+	height: 20%;
+	}
+	footer .fcc {
+	position: relative;
+	float: left;
+	height: 80%;
+	width: 50%;
+	}
+	footer .fccc {
+	position: relative;
+	float: left;
+	height: 50%;
+	width: 100%;
+	}
+	.fccc .fccci {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 1vw;
+	top: 0;
+	width: 100%;
+	height: 60%;
+	}
+		.fccc .fccci img {
+		position: absolute;
+		height: 85%;
+		filter: invert(85%);
+		}
+	.fccc p:nth-child(2) {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
+	font-family: 'DM Sans', sans-serif;
+	bottom: 20%;
+	height: 20%;
+	color: #fff;
+	font-size: 18px;
+	color: #999999;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	}
+	.fccc p:nth-child(3) {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
+	font-family: 'DM Sans', sans-serif;
+	bottom: 0;
+	color: #fff;
+	font-size: 18px;
+	height: 20%;
+	}

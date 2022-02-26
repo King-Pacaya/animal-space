@@ -1,0 +1,37 @@
+header {
+position: relative;
+height: 100vh;
+widows: 100%;
+overflow: hidden;
+background-color: #F6FBFE;
+}
+	header img {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 101%;
+	transform: translate(-50%, 0);
+	z-index: 0;
+	}
+	header h1 {
+	position: relative;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 1.25rem;
+	padding: 2vh 0;
+	margin: 0;
+	top: 18vh;
+	}
+	header h2 {
+	position: relative;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 4.5rem;
+	padding: 2vh 0;
+	margin: 0;
+	top: 18vh;
+	}
