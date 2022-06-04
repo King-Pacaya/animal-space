@@ -3,6 +3,37 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
+html {
+scroll-behavior: smooth;
+}
+
 body {
 font-family: 'DM Sans', sans-serif;
+scroll-behavior: smooth;
 }
+
+.wimg {
+position: fixed;
+bottom: 1vh;
+right: 1vw;
+height: 12vh;
+width: 12vh;
+z-index: 99;
+overflow: hidden;
+}
+  .wimg a {
+  position: absolute;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  }
+  .wimg img {
+  position: absolute;
+  margin: 0;
+  height: 90%;
+  }

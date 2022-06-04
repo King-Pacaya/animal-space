@@ -13,7 +13,7 @@ z-index: 99;
 position: relative;
 top: 50%;
 transform: translate(0, -50%);
-float: right;
+float: left;
 display: block;
 color: rgba(255, 255, 255, 0.8);
 text-align: center;
@@ -54,24 +54,6 @@ transform: translate(0, -50%);
 padding: 0;
 margin: 0;
 }
-
-.wimg {
-position: fixed;
-bottom: 2em;
-right: 1em;
-height: 6em;
-z-index: 99;
-}
-  .wimg img {
-  position: relative;
-  height: 75%;
-  left: 50%;
-  transform: translate(-50%, 0);
-  margin: 0 0 0.5em 0;
-  }
-  .wimg p {
-  color: #FFFFFF;
-  }
 
 @media screen and (max-width: 700px) {
   .topnav {

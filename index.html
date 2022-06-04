@@ -1,4 +1,4 @@
-<!--Esta página fue hecha por King Pacaya Astulla https://king-pacaya.github.io-->
+<!--Esta página fue hecha por King Pacaya https://king-pacaya.github.io-->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -20,7 +20,6 @@
     <link rel="stylesheet" type="text/css" href="styles/navbar.css">
     <link rel="stylesheet" type="text/css" href="styles/header.css">
     <link rel="stylesheet" type="text/css" href="styles/section.css">
-    <link rel="stylesheet" type="text/css" href="styles/aside.css">
     <link rel="stylesheet" type="text/css" href="styles/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--Fonts-->
@@ -30,34 +29,35 @@
   <!---Page Icon---> 
     <link rel="shortcut icon" href="multimedia/favicon.png">
   <!---Título---> 
-    <title> Animal Space | Veterinaria </title>
+    <title>Animal Space | Veterinaria</title>
 </head>
 <body>
 
 <div class="wimg">
   <a href="https://wa.link/of9k0l" target="_blank"><img src="multimedia/whatsapp.png"></a>
-  <p>Contáctanos</p>
 </div>
 
   <nav class="topnav" id="myTopnav">
     <img src="multimedia/logo.png">
-    <a class="nava" href="#contacto">Contacto</a>
-    <a class="nava" href="#categorias">Categorías</a>
+    <a class="nava active" href="#inicio">Inicio</a>
     <a class="nava" href="#nosotros">Nosotros</a>
-    <a class="nava active" href="index.html">Inicio</a>
+    <a class="nava" href="#categorias">Categorías</a>
+    <a class="nava" href="pages/servicios/index.html">Servicios</a>
+    <a class="nava" href="pages/galeria/index.html">Galería</a>
+    <a class="nava" href="#contacto">Contacto</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </nav>
 
-  <header>
+  <header id="inicio">
     <img src="multimedia/header.jpeg">
-    <h1>Veterninaria</h1>
+    <h1>Veterinaria</h1>
     <h2>Animal Space</h2>
   </header>
 
   <section id="nosotros">
     <div class="nd">
       <div class="nd1">
-        <div><img src="multimedia/nosotros.jpg"></div>
+        <div><img src="multimedia/nosotros.png"></div>
       </div>
       <div class="nd1">
         <p>sobre nosotros</p>
@@ -79,7 +79,7 @@
       <div class="nd2">
         <div><img src="multimedia/health.png"></div>
         <p>Salud de tu mascota</p>
-        <p>En Animal Space nos aseguramos de dalre lo mejor para tu mascota. Contamos con muchos artefactos tecnológicos para priorizar su seguridad, como rayos x, ecografía, anastesia inhalatoria, internamientos, cirugías, vacunas, baños y cortes con Groomers de amplia experiencia, etc.</p>
+        <p>En Animal Space nos aseguramos de darte lo mejor para tu mascota. Contamos con muchos artefactos tecnológicos para priorizar su seguridad, como rayos x, ecografía, anastesia inhalatoria, internamientos, cirugías, vacunas, baños y cortes con Groomers de amplia experiencia, etc.</p>
       </div>
     </div>
   </section>
@@ -87,29 +87,15 @@
   <section id="categorias">
     <p class="ctittle">Nuestras Categorías</p>
     <div class="ccont">
-      <div class="cd1">
-        <img src="multimedia/cate.jpeg">
-      </div>
       <div class="cd2">
         <div class="cd2d"><div><img src="multimedia/dog.png"></div><p>Perros</p></div>
         <div class="cd2d"><div><img src="multimedia/cat.png"></div><p>Gatos</p></div>
         <div class="cd2d"><div><img src="multimedia/bird.png"></div><p>Aves</p></div>
         <div class="cd2d"><div><img src="multimedia/bunny.png"></div><p>Conejos</p></div>
       </div>
-    </div>
-  </section>
-
-  <section id="place">
-    <img class="pbg" src="multimedia/place.jpg">
-    <div>
-    <p>Nuestras Instalaciones</p>
-      <img src="multimedia/p1.jpeg">
-      <img src="multimedia/p2.jpeg">
-      <img src="multimedia/p3.jpeg">
-      <img src="multimedia/p4.jpeg">
-    </div>
-    <div>
-      
+      <div class="cd1">
+        <img src="multimedia/cate.jpeg">
+      </div>
     </div>
   </section>
 
@@ -122,20 +108,32 @@
     <div class="fcont">
       <h1>Contáctenos</h1>
       <div class="fcc">
-        <div class="fccc"><div class="fccci"><img src="multimedia/location.png"></div><p>Ubicanos en</p><p>Av. Lomas de Carabayllo Mz H Lote 3 Las Casuarinas, Carabayllo 07031</p></div>
-        <div class="fccc"><div class="fccci"><img src="multimedia/phone.png"></div><p>Teléfono</p><p>+51 940 601 738</p></div>
+        <div class="fccc">
+          <div class="fccci">
+            <img src="multimedia/location.png">
+          </div>
+          <p>Ubicanos en</p>
+          <p>Av. Lomas de Carabayllo Mz H Lote 3 Las Casuarinas, Carabayllo 07031</p>
+        </div>
+        <div class="fccc">
+          <div class="fccci">
+            <img src="multimedia/phone.png">
+          </div>
+          <p>Teléfono</p>
+          <p>+51 940 601 738</p>
+        </div>
       </div>
       <div class="fcc">
-        <div class="fccc"><div class="fccci"><img src="multimedia/mail.png"></div><p>Correo Electrónico</p><p>correo@gmail.com</p></div>
-        <div class="fccc"><br><p style="top: 5%; bottom: inherit;">Síguenos</p></div>
+        <div class="fccc">
+          <div class="fccci">
+            <img src="multimedia/mail.png">
+          </div>
+          <p>Correo Electrónico</p>
+          <p>correo@gmail.com</p>
+        </div>
       </div>
     </div>
   </footer>
-
-  <section id="end">
-    <div><img src="multimedia/end.jpeg"></div>
-    <p>¡Te estamos esperando!</p>
-  </section>
 
   <script src="script/script.js"></script>
   <link rel="stylesheet" type="text/css" href="styles/navbar.css">
