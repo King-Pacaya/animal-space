@@ -23,12 +23,12 @@ flex-wrap: wrap;
 .bloque {
 position: relative;
 float: left;
-height: 60vh;
+height: 75vh;
 width: calc(100%/3.2);
 margin: 1vh 1vw;
 padding: 0 2vw;
 border-radius: 15px;
-overflow: hidden;
+overflow: auto;
 background-color: #282E33;
 color: #fff;
 box-shadow: 0vw 1vh 15px rgb(0 0 0 / 60%);
@@ -54,9 +54,21 @@ box-shadow: 0vw 1vh 15px rgb(0 0 0 / 60%);
 	text-transform: capitalize;
 	}
 	.bloque .info {
-	padding: 2vh 0;
+	padding: 2vh 1vw;
 	font-size: 18px;
+	height: 40vh;
+	overflow: auto;
 	}
+    .bloque .info::-webkit-scrollbar {
+    width: 5px;
+    background: transparent;
+    }
+
+    .bloque .info::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 5px;
+    }
+    
 	.bloque .accion {
 	position: absolute;
 	display: flex;

@@ -1,6 +1,6 @@
 #nosotros {
 position: relative;
-height: 150vh;
+height: 180vh;
 width: 100%;
 background-color: #095daa;
 }
@@ -39,19 +39,19 @@ background-color: #095daa;
 		padding: 4vh 0;
 		margin: 0;
 		}
-		.nd1 p:nth-child(2) {
-		font-size: 65px;
+		.nd1 .tnd1 {
+		font-size: 50px;
 		font-family: 'Oswald', sans-serif;
 		color: #fff;
-		padding: 4vh 6vw 2vh 2vw;
+		padding: 2vh 6vw 0 2vw;
 		line-height: 1;
 		margin: 0;
 		}
-		.nd1 p:nth-child(3) {
+		.nd1 .ind1 {
 		font-size: 18px;
 		font-family: 'DM Sans', sans-serif;
 		color: #fff;
-		padding: 4vh 6vw 2vh 2vw;
+		padding: 2vh 6vw 0 2vw;
 		margin: 0;
 		}
 	#nosotros .nd2 {
@@ -70,7 +70,7 @@ background-color: #095daa;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		height: 35%;
+		height: 30vh;
 		overflow: hidden;
 		}
 			.nd2 div img {
@@ -95,10 +95,20 @@ background-color: #095daa;
 		text-align: justify;
 		font-size: 18px;
 		color: #fff;
-		padding: 1.5vh 2.5vw;
 		margin: 0;
+		overflow: auto;
+		height: 40vh;
+		padding: 0 2vw;
 		}
+    .nd2 p:nth-child(3)::-webkit-scrollbar {
+    width: 5px;
+    background: transparent;
+    }
 
+    .nd2 p:nth-child(3)::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 5px;
+    }
 #categorias {
 position: relative;
 height: 100vh;
